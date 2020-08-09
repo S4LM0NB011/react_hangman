@@ -1,0 +1,9 @@
+var font { font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;}
+
+.Header .title {
+    font: large;
+    text-align: center;
+}
+.Header .subtitle {
+    text-align: center;
+}
