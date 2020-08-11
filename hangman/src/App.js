@@ -43,9 +43,13 @@ function App() {
   return (
     <div className="App">
       <Header />
-      <Gallow />
-      <WrongLetters wrongLetters={wrongLetters} />
-      <Word selectedWord={selectedWord} correctLetters={correctLetters} />
+      <div className="game-container">
+        <Gallow />
+        <WrongLetters wrongLetters={wrongLetters} />
+      </div>
+      <div className="word-container">
+        <Word selectedWord={selectedWord} correctLetters={correctLetters} /> 
+      </div>
     </div>
   );
 }

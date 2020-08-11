@@ -35,3 +35,15 @@ body {
 .wrong-letters-container {
     text-align: right;
 }
+
+.game-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.word-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
