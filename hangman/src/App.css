@@ -2,6 +2,7 @@ body {
     font-family: sans-serif;
     color: white;
     background-color: darkslategray;
+    flex: auto;
 }
 
 .Header .title {
@@ -13,8 +14,24 @@ body {
 }
 
 .figure-container {
+    justify-content: center;
     fill: transparent;
     stroke: white;
     stroke-width: 4px;
     stroke-linecap: butt;
+}
+
+.letter {
+    border-bottom: 3px solid white;
+    display: inline-flex;
+    font-size: 30px;
+    align-items: center;
+    justify-content: center;
+    margin: 0 3px;
+    height: 50px;
+    width: 20px;
+  }
+
+.wrong-letters-container {
+    text-align: right;
 }
