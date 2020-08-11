@@ -1,4 +1,8 @@
-var font { font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;}
+body {
+    font-family: sans-serif;
+    color: white;
+    background-color: darkslategray;
+}
 
 .Header .title {
     font: large;
@@ -6,4 +10,11 @@ var font { font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', '
 }
 .Header .subtitle {
     text-align: center;
+}
+
+.figure-container {
+    fill: transparent;
+    stroke: white;
+    stroke-width: 4px;
+    stroke-linecap: butt;
 }
